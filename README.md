@@ -89,7 +89,8 @@ The tabulation below shows the column names and their description:
 | Notes | Blank Column |
 
 Data Cleaning was done in power query:
--
+1. Unnecessary columns were removed. The remaining columns were tailored to give answers to the [Problem Statement](https://github.com/globalsmile/Airline-Analysis#Problem-Statement) and are listed below:
+- 
 
 
 
