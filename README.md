@@ -1,6 +1,6 @@
 # Client/Partner Sleeping Habit Analysis
 
-<img align="right" alt="Data Analytics" width="1000" height = "400" src="https://user-images.githubusercontent.com/106287208/180620178-7696afd1-82f1-48fb-81e4-6e87db068d07.jpg">
+<img align="right" alt="Snoring Partner" width="1000" height = "400" src="https://www.helpguide.org/wp-content/uploads/senior-man-covering-her-ears-while-man-snoring-picture-768.jpg">
 
 ---
 
