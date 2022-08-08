@@ -68,25 +68,25 @@ The tabulation below shows the column names and their description:
 | ----------- | ----------- |
 | Start | Represents the start date and time of the observation |
 | End | Represents the end date and time of the observation |
-| Sleep Quality | Represents the location of the accident |
-| Regularity | Represents the airline or the operator of the aircraft |
-| Mood | Represents the flight ID assigned by the aircraft operator |
-| Heart Rate(bmp) | Represents the  complete or partial route flown prior to the accident |
-| Steps | Represents the aircraft type |
-| Alarm Mode | Represents ICAO registration of the aircraft |
-| Air Pressure | Represents the construction or serial number/line or fuselage number |
-| City | Represents the total number of people aboard the plane |
-| Movements | Represents the number of fatalities |
-| Time in Bed | Represnts the total number of people killed on the ground by the aircraft |
-| Time Asleep | Contains brief description of the accident and cause if known |
-| Time before sleep | Represents the start date and time of the observation |
-| Window Start | Represents the end date and time of the observation |
-| Window Stop | Represents the location of the accident |
-| Did Snore | Represents the airline or the operator of the aircraft |
-| Snore Time | Represents the flight ID assigned by the aircraft operator |
-| Weather Temperature | Represents the  complete or partial route flown prior to the accident |
-| Weather Type | Represents the aircraft type |
-| Notes | Represents ICAO registration of the aircraft |
+| Sleep Quality | Represnts the quality of sleep of an individual around a certain time |
+| Regularity | Represents the regularity of sleep of an individual  around a certain time |
+| Mood | Blank Column |
+| Heart Rate(bmp) | Represents the heart rate of an individual  around a certain time |
+| Steps | Represents the number of steps taken by an individual in a day |
+| Alarm Mode | Describes the alarm mode the individual has set |
+| Air Pressure | Represents the air pressure in the room |
+| City | Blank Column |
+| Movements | Represents the number of movements made by the individual around a certain time |
+| Time in Bed | Represents the time in bed in seconds  |
+| Time Asleep | Represents the time asleep in seconds |
+| Time before sleep | Represents the time before sleep in seconds |
+| Window Start | Represents the window start date and time |
+| Window Stop | Represents the window stop date and time |
+| Did Snore | Describes the snoring sound |
+| Snore Time | Represents the snore time of an individual in seconds |
+| Weather Temperature | Represents the tempaerature of the weather around a certain time |
+| Weather Type | Describes the weather type |
+| Notes | Blank Column |
 
 - To clean the data, power query was used to check the column's profile, quality, and distribution. it was found out that some columns were missing some values.
 
