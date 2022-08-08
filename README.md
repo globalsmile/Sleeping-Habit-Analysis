@@ -52,11 +52,14 @@ This Datasets were presented by [The Numerist](https://www.numerist.co.uk/home) 
 
 # Data Transformation
 
-For the purpose of this analysis, Microsoft Power BI was used to transform the data.
+Data transformation was done in Power Query and the datasets were loaded into Microsoft Power BI Desktop for modeling.
 
-Data transformation begins in Power query after the data has been loaded into Microsoft Power BI.
+- Client Sleep Data consists of `21 columns and 111 rows` of observations
+- Partner Sleep Data consists of `21 columns and 77 rows` of observations
 
-- In Power query the table containing the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It contains `13 columns and 5268 rows` data we will be working with.
+In Power query the tables that contains the datasets are named:
+-  `Client`
+-  `Partner` respectively.
 
 The table below shows the column names and their description:
 | Column Name | Description |
