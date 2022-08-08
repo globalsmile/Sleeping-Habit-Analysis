@@ -20,11 +20,11 @@
 ---
 
 # Introduction
-According to [WikiHow](https://www.wikihow.com/Survive-a-Plane-Crash):
+According to a publication on [Researchgate](https://www.researchgate.net/publication/353107608_Accuracy_of_a_Smartphone_Application_Measuring_Snoring_in_Adults-How_Smart_Is_It_Actually):
 
-The chances of dying on a commercial airline flight are actually as low as 9 million to 1. That said, a lot can go wrong at 33,000 feet (10,058.4 m) above the ground, and if you’re unlucky enough to be aboard when something does, the decisions you make could mean the difference between life and death. Almost 95% of airplane crashes have survivors, so even if the worst does happen, your odds aren't as bad as you might think
+### About 40% of the adult population is affected by snoring, which is closely related to obstructive sleep apnea (OSA) and can be associated with serious health implications. Commercial smartphone applications (apps) offer the possibility of monitoring snoring at home. However, the number of validation studies addressing snoring apps is limited. 
 
-So let's see...
+The purpose of the present study is to help the client and their partner analyze their sleeping activity recorded on an app each night.
 
 ---
 
