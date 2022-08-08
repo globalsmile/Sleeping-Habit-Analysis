@@ -30,7 +30,14 @@ The purpose of the present study is to help the client and their partner analyze
 
 # Problem Statement
 
-The main objective of this project is to perform an exploratory data analysis on the dataset and visualize the data to find some weird or interesting insights.
+The app collects lots of different data points including a snore detector. 
+The client's partner snores very loudly during the night. The client believes that they do not snore.
+The client believes that the app is incorrectly tracking their partners snoring and impacting the quality of their data.
+
+Using the data provided:
+
+- Find out who is snoring, the Client or their partner?
+- Provide the client with some recommendations based on the data to improve the quality of their sleep.
 
 ---
 
