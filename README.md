@@ -133,21 +133,21 @@ After [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-
 
 # Data Visualization
 
-Data visualization for the dataset was done in two folds:
-- `Annual Analysis`: Shows the number of accidents, fatalities, location, etc. for a previously selected year
-- `Data Summary 1908 - 2009`: Shows all the data from the whole period, including the total number of accidents and total number of fatalities by year, operator and aircraft type.
+Data visualization for the datasets was done in two folds using Microsft Power BI Desktop and Microsoft PowerPoint:
+- `Client Sleeping Habit Analysis`: Shows the average time in bed per day, average time asleep per day, average snore time per day, etc for the client.
+- `Partner Sleeping Habit Analysis`: Shows the average time in bed per day, average time asleep per day, average snore time per day, etc for the Partner.
 
-- Figure 1 shows visualizations from `Annual Analysis`
+Figure 1 shows visualizations from `Client Sleeping Habit Analysis`
 
 | Figure 1 |
 | ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180833146-0c593368-94fd-4550-9177-cec32cc32ab0.png) |
+| ![image](https://user-images.githubusercontent.com/106287208/183494154-37e8bb69-20a0-4cc8-a6b7-2529d462350f.png) |
 
-- Figure 2 shows visualizations from `Data Summary 1908 - 2009`
+Figure 2 shows visualizations from `Partner Sleeping Habit Analysis`
 
 | Figure 2 |
 | ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180864176-aee4c729-d6de-41e8-b2ca-68192671476c.png) |
+| ![image](https://user-images.githubusercontent.com/106287208/183493702-dd7748af-115b-4e35-ac8c-a87b0a58b7d3.png) |
 
 ---
 
