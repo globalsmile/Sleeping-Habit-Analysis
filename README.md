@@ -61,22 +61,32 @@ In Power query the tables that contains the datasets are named:
 -  `Client`
 -  `Partner` respectively.
 
-The table below shows the column names and their description:
+After careful observation each of the tables have same column names, hence:
+
+The tabulation below shows the column names and their description:
 | Column Name | Description |
 | ----------- | ----------- |
-| Date | Represents the date of the accident |
-| Time | Represents the time(local) of the accident in 24hrs and in the format hh:mm |
-| Location | Represents the location of the accident |
-| Operator | Represents the airline or the operator of the aircraft |
-| Flight | Represents the flight ID assigned by the aircraft operator |
-| Route | Represents the  complete or partial route flown prior to the accident |
-| Type | Represents the aircraft type |
-| Registration | Represents ICAO registration of the aircraft |
-| Cn/Ln | Represents the construction or serial number/line or fuselage number |
-| Aboard | Represents the total number of people aboard the plane |
-| Fatalities | Represents the number of fatalities |
-| Ground | Represnts the total number of people killed on the ground by the aircraft |
-| Summary | Contains brief description of the accident and cause if known |
+| Start | Represents the start date and time of the observation |
+| End | Represents the end date and time of the observation |
+| Sleep Quality | Represents the location of the accident |
+| Regularity | Represents the airline or the operator of the aircraft |
+| Mood | Represents the flight ID assigned by the aircraft operator |
+| Heart Rate(bmp) | Represents the  complete or partial route flown prior to the accident |
+| Steps | Represents the aircraft type |
+| Alarm Mode | Represents ICAO registration of the aircraft |
+| Air Pressure | Represents the construction or serial number/line or fuselage number |
+| City | Represents the total number of people aboard the plane |
+| Movements | Represents the number of fatalities |
+| Time in Bed | Represnts the total number of people killed on the ground by the aircraft |
+| Time Asleep | Contains brief description of the accident and cause if known |
+| Time before sleep | Represents the start date and time of the observation |
+| Window Start | Represents the end date and time of the observation |
+| Window Stop | Represents the location of the accident |
+| Did Snore | Represents the airline or the operator of the aircraft |
+| Snore Time | Represents the flight ID assigned by the aircraft operator |
+| Weather Temperature | Represents the  complete or partial route flown prior to the accident |
+| Weather Type | Represents the aircraft type |
+| Notes | Represents ICAO registration of the aircraft |
 
 - To clean the data, power query was used to check the column's profile, quality, and distribution. it was found out that some columns were missing some values.
 
