@@ -88,7 +88,10 @@ The tabulation below shows the column names and their description:
 | Weather Type | Describes the weather type |
 | Notes | Blank Column |
 
-- To clean the data, power query was used to check the column's profile, quality, and distribution. it was found out that some columns were missing some values.
+Data Cleaning was done in power query:
+-
+
+
 
 The table below shows the number of missing values in each of the columns:
 | Column Name | No. of missing values |
