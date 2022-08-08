@@ -184,5 +184,4 @@ This can be caused by an overestimation of snoring by the app. For clinical prac
 
 You can interact with the report here: 
 
-https://app.powerbi.com/view?r=eyJrIjoiZWEzMTE3ZjUtZmZhOS00YWQ0LThiM2EtMjBiZmQ2ZjFiNWZlIiwidCI6IjQ5ODY4YWYzLWNjNWYtNDIxNC04YjdmLTQwZjM3NDY0OWEwOSJ9&pageName=ReportSection19294c9f61400f986291
-
+https://app.powerbi.com/view?r=eyJrIjoiMDVlNzU4MzUtY2UxOS00Yzk1LTlkNDAtZTA4Yzc5NjkwOTg3IiwidCI6IjQ5ODY4YWYzLWNjNWYtNDIxNC04YjdmLTQwZjM3NDY0OWEwOSJ9
