@@ -129,7 +129,6 @@ After the datasets were cleaned and transformed, it was ready to be modeled.
 
 After [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization), the all the columns in both the `Client` and `Partner` tables were hidden.
 
-
 ---
 
 # Data Visualization
