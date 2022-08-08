@@ -176,7 +176,7 @@ As shown by [Data Visualization](https://github.com/globalsmile/Airline-Analysis
 
 There is a strong negative correlation between the sleep quality and the snoring time of both the client and partner, hence we can not make any recommendations as to improving the quality of sleep
 
-This can be caused by
+This can be caused by an overestimation of snoring by the app. For clinical practice, the present results indicate that the app should not be used for OSA screening, but can possibly be a helpful tool for monitoring snoring e.g., inconjunction with the evaluation of different treatment modalities.
 
 ---
 
