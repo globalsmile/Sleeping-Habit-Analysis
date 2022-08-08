@@ -153,6 +153,15 @@ Figure 2 shows visualizations from `Partner Sleeping Habit Analysis`
 
 # Data Analysis
 
+Measures used in visualization are:
+
+- Average Regularity = `AVERAGEX(Client,Client[Regularity])`
+- Average Sleep Quality = `AVERAGEX(Client,Client[Sleep Quality])`
+- Average Time in Bed = `AVERAGEX(Client,Client[Time in bed (seconds)]) / 3600`
+- Average Time Asleep = `AVERAGEX(Client,Client[Time asleep (seconds)]) / 3600`
+- Average Snore Time = `AVERAGEX(Client,Client[Snore time]) / 60`
+- Background Transparency = `"rgba(255,255,255,0)"`
+
 - For [Figure 1](https://user-images.githubusercontent.com/106287208/180833146-0c593368-94fd-4550-9177-cec32cc32ab0.png), a measure was created using the DAX `Total Fatalities = SUM(Airplane_Crashes_and_Fatalities_since_1908[Aboard] + SUM(Airplane_Crashes_and_Fatalities_since_1908[Ground])` to aggregrate the total number of fatalities for each year.
 
 see Figure 3 below:
