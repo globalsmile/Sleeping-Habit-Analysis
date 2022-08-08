@@ -162,42 +162,11 @@ Measures used in visualization are:
 - Average Snore Time = `AVERAGEX(Client,Client[Snore time]) / 60`
 - Background Transparency = `"rgba(255,255,255,0)"`
 
-- For [Figure 1](https://user-images.githubusercontent.com/106287208/180833146-0c593368-94fd-4550-9177-cec32cc32ab0.png), a measure was created using the DAX `Total Fatalities = SUM(Airplane_Crashes_and_Fatalities_since_1908[Aboard] + SUM(Airplane_Crashes_and_Fatalities_since_1908[Ground])` to aggregrate the total number of fatalities for each year.
+From [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization), It can be deducted that:
 
-see Figure 3 below:
-| Figure 3 |
-| ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180865767-0c9d6bf9-6032-4ec0-a932-39544596880c.png) |
-
-- From [Figure 2](https://user-images.githubusercontent.com/106287208/180864176-aee4c729-d6de-41e8-b2ca-68192671476c.png), It looks like Aeroflot has the highest number of accidents for all the time specified by the dataset.
-
-See Figure 4 below:
-| Figure 4 |
-| ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180882778-6b87c2f1-975f-4730-adb2-15609ddf3883.png) |
-
-PJSC Aeroflot – Russian Airlines, commonly known as Aeroflot, is the flag carrier and largest airline of the Russian Federation. The carrier is an open joint stock company that operates domestic and international passenger and services, mainly from its hub at Sheremetyevo International Airport. (c) [Wikipedia](https://en.wikipedia.org/wiki/Aeroflot)
-
-Also the data point for fatalities on ground for the year 2001 appears to look like an outlier, however the 9/11 attacks against targets in the United States contibuted to a massive rise in total fatalities (on ground) for the year.
-
-See Figure 5 below:
-| Figure 5 |
-| ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180882364-a55df9fc-f344-43d1-9779-ae38bf74cb8c.png) |
-
-From our 'Annual Analysis' for the year 2001 it is estimated that they were a total of:
-
-`60 accidents`, `7752 fatalities`, `2111 people killed abord`, `5641 people killed on the ground`.
-See Figure 6 below:
-| Figure 6 |
-| ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180875463-3b6f81c7-242f-433d-9daf-01d9d66f1559.png) |
-
-It was also found that, about `2880 people were killed on ground` from the 9/11 attacks against target in the USA.
-Find out more at [9/11 attacks](https://www.britannica.com/event/September-11-attacks)
-
-Generally for the dataset, they were a total of `5268 Accidents` resulting in about `153K Fatalities` spanning a period of `102` years.
-
+- Both the client and partner snores, however the partner(`Average Snore Time = 15 min`)  snores longer than the client(`Average Snore Time = 3`)
+- The partner(`Average Time in Bed = 7 hours`) spends more time in bed than the client(`Average Time in Bed = 5 hours`)
+- The partner(`Average Time Asleep = 6 hours`) spends more time asleep than the client(`Average Time Asleep = 4hours`)
 
 ---
 
