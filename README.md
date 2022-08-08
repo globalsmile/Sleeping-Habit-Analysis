@@ -118,21 +118,17 @@ The date table was named `Calender`.
 
 # Data Modeling
 
-After the data was cleaned and transformed, it was ready to be modeled.
-- In the `Calender` table, `calculated columns` was used to extract the `Day`,` Month`, `Quarter`, `Year` columns from the table.
+After the datasets were cleaned and transformed, it was ready to be modeled.
 
-For `Day`, we used the DAX expression `FORMAT(Calender[Dates],'DDDD')`
-
-For `Month`, we used the DAX expression `MONTH(Calender[Dates])`
-
-For `Day`, we used the DAX expression `QUARTER(Calender[Dates])`
-
-For `Day`, we used the DAX expression `YEAR(Calender[Dates])`
-
-- An hierarchy was created in the `Calender` table to include the following columns: `Day`,` Month`, `Quarter`, `Year`
 - The `Calender` table was then marked as the official date table in the dataset.
-- To reference the date and time in the `Airplane_Crashes_and_Fatalities_since_1908` table more accurately, a `one-to-many (*:1) relationship` was created between the 
-`Airplane_Crashes_and_Fatalities_since_1908` and the `Calender` table using the `Dates` column in each of the tables.
+- To reference the dates in the `End` column of the 2 tables named `Client` and `Partner` respectively more accurately, a `one-to-many (*:1) relationship` was created between the 
+`Client` and the `Calender` tables using the dates column in each of the tables, also a `one-to-many (*:1) relationship` was created between the 
+`Partner` and the `Calender` tables using the dates column in each of the tables in a `Star Schema` as shown below:
+
+<img align="right" alt="Data Model" width="1000" height = "400" src="https://user-images.githubusercontent.com/106287208/183488382-e73927a3-8147-4f85-a837-18806d704e4f.png">
+
+After [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization), the all the columns in both the `Client` and `Partner` tables were hidden.
+
 
 ---
 
