@@ -68,7 +68,7 @@ The tabulation below shows the column names and their description:
 | ----------- | ----------- |
 | Start | Represents the start date and time of the observation |
 | End | Represents the end date and time of the observation |
-| Sleep Quality | Represnts the quality of sleep of an individual around a certain time |
+| Sleep Quality | Represents the quality of sleep of an individual around a certain time |
 | Regularity | Represents the regularity of sleep of an individual  around a certain time |
 | Mood | Blank Column |
 | Heart Rate(bmp) | Represents the heart rate of an individual  around a certain time |
