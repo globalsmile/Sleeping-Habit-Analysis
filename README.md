@@ -7,15 +7,15 @@
 
 # Table of Contents
 
-- [Introduction](https://github.com/globalsmile/Airline-Analysis#introduction)
-- [Problem Statement](https://github.com/globalsmile/Airline-Analysis#Problem-Statement)
-- [Data Sourcing](https://github.com/globalsmile/Airline-Analysis#Data-Sourcing)
-- [Data Transformation](https://github.com/globalsmile/Airline-Analysis#Data-Transformation)
-- [Data Modeling](https://github.com/globalsmile/Airline-Analysis#Data-Modeling)
-- [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization)
-- [Data Analysis](https://github.com/globalsmile/Airline-Analysis#Data-Analysis)
-- [Recommendation](https://github.com/globalsmile/Airline-Analysis#Recommendation)
-- [Shareable link](https://github.com/globalsmile/Airline-Analysis#Shareable-Link)
+- [Introduction](https://github.com/globalsmile/Sleeping-Habit-Analysis#introduction)
+- [Problem Statement](https://github.com/globalsmile/Sleeping-Habit-Analysis#Problem-Statement)
+- [Data Sourcing](https://github.com/globalsmile/Sleeping-Habit-Analysis#Data-Sourcing)
+- [Data Transformation](https://github.com/globalsmile/Sleeping-Habit-Analysis#Data-Transformation)
+- [Data Modeling](https://github.com/globalsmile/Sleeping-Habit-Analysis#Data-Modeling)
+- [Data Visualization](https://github.com/globalsmile/Sleeping-Habit-Analysis#Data-Visualization)
+- [Data Analysis](https://github.com/globalsmile/Sleeping-Habit-Analysis#Data-Analysis)
+- [Recommendation](https://github.com/globalsmile/Sleeping-Habit-Analysis#Recommendation)
+- [Shareable link](https://github.com/globalsmile/Sleeping-Habit-Analysis#Shareable-Link)
 
 ---
 
@@ -90,7 +90,7 @@ The tabulation below shows the column names and their description:
 
 Data Cleaning for the 2 datasets was done in power query as follows:
 
-- Unnecessary columns were removed. The remaining columns were tailored to provide answers to the [Problem Statement](https://github.com/globalsmile/Airline-Analysis#Problem-Statement) and are shown below:
+- Unnecessary columns were removed. The remaining columns were tailored to provide answers to the [Problem Statement](https://github.com/globalsmile/Sleeping-Habit-Analysis#Problem-Statement) and are shown below:
 
 | Column Name |
 | ----------- | 
@@ -127,7 +127,7 @@ After the datasets were cleaned and transformed, it was ready to be modeled.
 
 <img align="right" alt="Data Model" width="1000" height = "400" src="https://user-images.githubusercontent.com/106287208/183488382-e73927a3-8147-4f85-a837-18806d704e4f.png">
 
-After [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization), the all the columns in both the `Client` and `Partner` tables were hidden.
+After [Data Visualization](https://github.com/globalsmile/Sleeping-Habit-Analysis#Data-Visualization), the all the columns in both the `Client` and `Partner` tables were hidden.
 
 ---
 
@@ -162,7 +162,7 @@ Measures used in visualization are:
 - Average Snore Time = `AVERAGEX(Client,Client[Snore time]) / 60`
 - Background Transparency = `"rgba(255,255,255,0)"`
 
-As shown from [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization), It can be deducted that:
+As shown from [Data Visualization](https://github.com/globalsmile/Sleeping-Habit-Analysis#Data-Visualization), It can be deducted that:
 
 - Both the client and partner snores, however the partner(`Average Snore Time = 15 min`)  snores longer than the client(`Average Snore Time = 3`)
 - The partner(`Average Time in Bed = 7 hours`) spends more time in bed than the client(`Average Time in Bed = 5 hours`)
@@ -172,7 +172,7 @@ As shown from [Data Visualization](https://github.com/globalsmile/Airline-Analys
 
 # Recommendation
 
-As shown by [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization), It can be deducted that:
+As shown by [Data Visualization](https://github.com/globalsmile/Sleeping-Habit-Analysis#Data-Visualization), It can be deducted that:
 
 There is a strong negative correlation between the sleep quality and the snoring time of both the client and partner, hence we can not make any recommendations as to improving the quality of sleep
 
