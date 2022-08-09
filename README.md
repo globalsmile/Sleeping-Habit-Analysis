@@ -121,7 +121,7 @@ The date table was named `Calender`.
 After the datasets were cleaned and transformed, it was ready to be modeled.
 
 - The `Calender` table was marked as the official date table in the dataset.
-- To reference the dates in the `End` column of the 2 tables named `Client` and `Partner` respectively more accurately, a `one-to-many (*:1) relationship` was created between the 
+- To reference the dates in the `End` columns of the 2 tables named `Client` and `Partner` respectively more accurately, a `one-to-many (*:1) relationship` was created between the 
 `Client` and the `Calender` tables using the dates column in each of the tables, also a `one-to-many (*:1) relationship` was created between the 
 `Partner` and the `Calender` tables using the dates column in each of the tables in a `Star Schema` as shown below:
 
