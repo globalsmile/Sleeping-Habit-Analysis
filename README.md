@@ -162,7 +162,7 @@ Measures used in visualization are:
 - Average Snore Time = `AVERAGEX(Client,Client[Snore time]) / 60`
 - Background Transparency = `"rgba(255,255,255,0)"`
 
-As shown by [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization), It can be deducted that:
+As shown from [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization), It can be deducted that:
 
 - Both the client and partner snores, however the partner(`Average Snore Time = 15 min`)  snores longer than the client(`Average Snore Time = 3`)
 - The partner(`Average Time in Bed = 7 hours`) spends more time in bed than the client(`Average Time in Bed = 5 hours`)
