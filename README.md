@@ -61,7 +61,7 @@ In Power query the tables that contains the datasets are named:
 -  `Client`
 -  `Partner` respectively.
 
-After careful observation each of the tables have same column names, hence:
+After careful examination, each of the tables have common column names, hence:
 
 The tabulation below shows the column names and their description:
 | Column Name | Description |
